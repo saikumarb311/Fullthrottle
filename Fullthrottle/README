@@ -1,0 +1,20 @@
+///Whatever the Task you are given for me i complete the task in two ways
+by using pure Djago and another way by using Django Rest framework///
+
+///By using Djano///
+1.First i created the app with the name "usersapp" and i registered that in app INSTALLED_APPS of settings.py file.
+2.Next i created the two user defined model classes(User,Activity) in models.py file with required attributes.and one user
+having more acyivitit
+3.Next i perform the migrations on that particular app
+4.After that i created the separate urls.py and forms.py file for the app
+5.In urls.py file i defined the all required url patterns
+6.In views.py file I create user_list API for return all users data in Json format
+7.i created a two more function based views (home & user_detail) home view for end user enter
+the data for "User" model for that purpose in form.py file i created a user defined modelform (userform) after
+entering the data whenever end user click on the submit button can get the data from that modelform and performing
+the validations if validation is successfull i can store the data into database and i return the JSON response
+7.user_detail API for getting the particular user data.
+
+///by using Django Rest framework///
+1.i created the two more python files(serializers and api) in app folder.
+2.in api.py file i created the get api,post api,update and delete api's
